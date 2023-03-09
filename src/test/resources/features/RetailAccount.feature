@@ -69,7 +69,7 @@ Feature: Retail Application Account Feature
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 
-  @test11
+  @test13
   Scenario: Verify User can remove Address from Account
     When User click on Account option
     And User click on remove option of Address section
