@@ -10,6 +10,7 @@ public class RetailSignInPage extends BaseSetup {
 	public RetailSignInPage() {
 		PageFactory.initElements(getDriver(), this);
 	}
+
 	@FindBy(xpath = "//h1[text()='Sign in']")
 	public WebElement signPageLogo;
 
@@ -43,6 +44,7 @@ public class RetailSignInPage extends BaseSetup {
 	@FindBy(xpath = "//button[text()='Sign Up']")
 	public WebElement signUpFormButton;
 
-	
-	
+	@FindBy(xpath = "//div[@class='account__information-detail-wrapper']")
+	public WebElement accountInfo;
+
 }

@@ -38,7 +38,7 @@ public class RetailOrderSteps extends CommonUtility {
 	
 	@When("User click on Return Items button")
 	public void userClickOnReturnItemsButton() {
-	    click(factory.orderPage().returnButton);
+	    clickElementWithJS(factory.orderPage().returnButton);
 	}
 	@When("User select the Return Reason {string}")
 	public void userSelectTheReturnReason(String value) {

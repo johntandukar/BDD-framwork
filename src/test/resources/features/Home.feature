@@ -1,3 +1,4 @@
+@homepage
 Feature: Retail Home Page
 
   @home

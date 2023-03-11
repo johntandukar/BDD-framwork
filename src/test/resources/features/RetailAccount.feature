@@ -1,3 +1,4 @@
+@complete
 Feature: Retail Application Account Feature
 
   Background: 
@@ -19,7 +20,7 @@ Feature: Retail Application Account Feature
     When User click on Account option
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Home/1234        | Home/12345  | Home/12345      |
+      | Home/12345       | Home/1234   | Home/1234       |
     And User click on Change Password button
     Then a message should be displayed ‘Password Updated Successfully’
 

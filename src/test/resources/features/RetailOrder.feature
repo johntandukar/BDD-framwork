@@ -1,3 +1,4 @@
+@Retail5
 Feature: Retail Order Page
 
   @Retail

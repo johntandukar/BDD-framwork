@@ -45,24 +45,26 @@ public class RetailAccountSteps extends CommonUtility {
 		logger.info("user profile information updated");
 	}
 	@When("User enter below information")
-	public void userEnterBelowInformation(DataTable dataTable) {
-		List<Map<String, String>> changePassword = dataTable.asMaps(String.class, String.class);
-		sendText(factory.accountPage().previousPasswordInput,changePassword.get(0).get("previousPassword"));
-		sendText(factory.accountPage().newPasswordInput,changePassword.get(0).get("newPassword"));
-		sendText(factory.accountPage().confirmPasswordInput,changePassword.get(0).get("confirmPassword"));
-		logger.info("user filled the new password information form");
+	public void userEnterBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+	    List<Map<String,String>>changePassword = dataTable.asMaps(String.class,String.class);
+	    sendText(factory.accountPage().previousPasswordInput,changePassword.get(0).get("previousPassword"));
+	    sendText(factory.accountPage().newPasswordInput,changePassword.get(0).get("newPassword"));
+	    sendText(factory.accountPage().confirmPasswordInput,changePassword.get(0).get("confirmPassword"));
+	    logger.info("user filled the new password information form");
+	    
 	}
 	@When("User click on Change Password button")
 	public void userClickOnChangePasswordButton() {
 	    click(factory.accountPage().changePasswordButton);
 	    logger.info("user clicked on change password");
-	    
+
 	}
 	@Then("a message should be displayed ‘Password Updated Successfully’")
 	public void aMessageShouldBeDisplayedPasswordUpdatedSuccessfully() {
-		isElementDisplayed(factory.accountPage().passwordUpdatedSuccessfully);
-		logger.info("user is login into account page");
+	 waitTillDisappears(factory.accountPage().passwordUpdatedSuccessfully);
+	 logger.info("Password Updated successfully");
 	}
+
 	
 	@When("User click on Add a payment method link")
 	public void userClickOnAddAPaymentMethodLink() {
