@@ -1,10 +1,10 @@
-@complete
+@jenkinsRun
 Feature: Retail Application Account Feature
 
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'james12345@gmail.com' and password 'Home/12345'
+    And User enter email 'james12345@gmail.com' and password 'Home/1234'
     And User click on login button
     And User should be logged in into Account
 

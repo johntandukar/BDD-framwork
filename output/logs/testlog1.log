@@ -1749,3 +1749,45 @@
 2023-03-12 12:42:33,342 [main] INFO logger_File - user filled the signUp information form
 2023-03-12 12:42:33,564 [main] INFO logger_File - user clicked on SignUpForm button
 2023-03-12 12:42:33,590 [main] INFO logger_File - user is login into account page
+2023-03-12 14:26:48,193 [main] INFO logger_File - user searched for productpokemon
+2023-03-12 14:26:48,207 [main] INFO logger_File - the Product is displayed on home page
+2023-03-12 14:26:51,271 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:26:51,355 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:26:51,577 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:26:51,587 [main] INFO logger_File - User should be logged in Account
+2023-03-12 14:26:51,828 [main] INFO logger_File - user clicked on Account option
+2023-03-12 14:26:51,902 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-12 14:27:14,944 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:27:15,018 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:27:15,237 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:27:15,245 [main] INFO logger_File - User should be logged in Account
+2023-03-12 14:27:15,476 [main] INFO logger_File - user clicked on Account option
+2023-03-12 14:27:15,562 [main] INFO logger_File - user filled the new password information form
+2023-03-12 14:27:15,779 [main] INFO logger_File - user clicked on change password
+2023-03-12 14:27:15,963 [main] INFO logger_File - Password Updated successfully
+2023-03-12 14:27:18,360 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:27:18,436 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:27:18,654 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:30:43,310 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:30:43,396 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:30:43,624 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:33:17,410 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:33:17,502 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 14:33:17,729 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:33:17,738 [main] INFO logger_File - User should be logged in Account
+2023-03-12 14:33:17,974 [main] INFO logger_File - user clicked on Account option
+2023-03-12 14:33:18,058 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-12 14:39:34,754 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:39:34,838 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 14:39:35,062 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:39:35,072 [main] INFO logger_File - User should be logged in Account
+2023-03-12 14:39:35,310 [main] INFO logger_File - user clicked on Account option
+2023-03-12 14:39:35,398 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-12 14:42:31,633 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 14:42:31,718 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 14:42:31,941 [main] INFO logger_File - user clicked on login button
+2023-03-12 14:42:31,951 [main] INFO logger_File - User should be logged in Account
+2023-03-12 14:42:32,187 [main] INFO logger_File - user clicked on Account option
+2023-03-12 14:42:32,268 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-12 14:42:32,275 [main] INFO logger_File - user clicked on Update button
+2023-03-12 14:42:32,887 [main] INFO logger_File - user profile information updated

@@ -1,11 +1,11 @@
-@signIn
+@jenkinsRun
 Feature: Sign In Feature
 
   @test3
   Scenario: Verify user can sign in into Retail Application
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'james12345@gmail.com' and password 'Home/12345'
+    And User enter email 'james12345@gmail.com' and password 'Home/1234'
     And User click on login button
     Then User should be logged in into Account
 

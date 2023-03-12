@@ -1,11 +1,11 @@
-@Retail5
+
 Feature: Retail Order Page
 
   @Retail
   Scenario: Verify User can cancel the order
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'james12345@gmail.com' and password 'Home/12345'
+    And User enter email 'james12345@gmail.com' and password 'Home/1234'
     And User click on login button
     And User should be logged in into Account
     And User click on Orders section

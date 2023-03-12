@@ -1,4 +1,4 @@
-@homepage
+
 Feature: Retail Home Page
 
   @home
@@ -28,7 +28,7 @@ Feature: Retail Home Page
   Scenario: Verify User can add an item to cart
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'james12345@gmail.com' and password 'Home/12345'
+    And User enter email 'james12345@gmail.com' and password 'Home/1234'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Smart Home'
@@ -43,7 +43,7 @@ Feature: Retail Home Page
   Scenario: Verify User can place an order without Shipping address and payment Method on file
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'james12345@gmail.com' and password 'Home/12345'
+    And User enter email 'james12345@gmail.com' and password 'Home/1234'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Smart Home'
@@ -72,7 +72,7 @@ Feature: Retail Home Page
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'james12345@gmail.com' and password 'Home/12345'
+    And User enter email 'james12345@gmail.com' and password 'Home/1234'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Electronics'

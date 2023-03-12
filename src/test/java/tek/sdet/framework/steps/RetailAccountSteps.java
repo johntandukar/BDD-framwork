@@ -33,7 +33,7 @@ public class RetailAccountSteps extends CommonUtility {
 
 	@When("User click on Update button")
 	public void userClickOnUpdateButton() {
-		click(factory.accountPage().profileUpdateButton);
+		clickElementWithJS(factory.accountPage().profileUpdateButton);
 		logger.info("user clicked on Update button");
 
 	}

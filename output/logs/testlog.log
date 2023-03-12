@@ -1749,3 +1749,45 @@
 2023-03-12 12:42:33,342 - logger_File -INFO - user filled the signUp information form
 2023-03-12 12:42:33,564 - logger_File -INFO - user clicked on SignUpForm button
 2023-03-12 12:42:33,590 - logger_File -INFO - user is login into account page
+2023-03-12 14:26:48,193 - logger_File -INFO - user searched for productpokemon
+2023-03-12 14:26:48,207 - logger_File -INFO - the Product is displayed on home page
+2023-03-12 14:26:51,271 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:26:51,355 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:26:51,577 - logger_File -INFO - user clicked on login button
+2023-03-12 14:26:51,587 - logger_File -INFO - User should be logged in Account
+2023-03-12 14:26:51,828 - logger_File -INFO - user clicked on Account option
+2023-03-12 14:26:51,902 - logger_File -INFO - user updated Name and Phone values 
+2023-03-12 14:27:14,944 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:27:15,018 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:27:15,237 - logger_File -INFO - user clicked on login button
+2023-03-12 14:27:15,245 - logger_File -INFO - User should be logged in Account
+2023-03-12 14:27:15,476 - logger_File -INFO - user clicked on Account option
+2023-03-12 14:27:15,562 - logger_File -INFO - user filled the new password information form
+2023-03-12 14:27:15,779 - logger_File -INFO - user clicked on change password
+2023-03-12 14:27:15,963 - logger_File -INFO - Password Updated successfully
+2023-03-12 14:27:18,360 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:27:18,436 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:27:18,654 - logger_File -INFO - user clicked on login button
+2023-03-12 14:30:43,310 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:30:43,396 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 14:30:43,624 - logger_File -INFO - user clicked on login button
+2023-03-12 14:33:17,410 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:33:17,502 - logger_File -INFO - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 14:33:17,729 - logger_File -INFO - user clicked on login button
+2023-03-12 14:33:17,738 - logger_File -INFO - User should be logged in Account
+2023-03-12 14:33:17,974 - logger_File -INFO - user clicked on Account option
+2023-03-12 14:33:18,058 - logger_File -INFO - user updated Name and Phone values 
+2023-03-12 14:39:34,754 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:39:34,838 - logger_File -INFO - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 14:39:35,062 - logger_File -INFO - user clicked on login button
+2023-03-12 14:39:35,072 - logger_File -INFO - User should be logged in Account
+2023-03-12 14:39:35,310 - logger_File -INFO - user clicked on Account option
+2023-03-12 14:39:35,398 - logger_File -INFO - user updated Name and Phone values 
+2023-03-12 14:42:31,633 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 14:42:31,718 - logger_File -INFO - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 14:42:31,941 - logger_File -INFO - user clicked on login button
+2023-03-12 14:42:31,951 - logger_File -INFO - User should be logged in Account
+2023-03-12 14:42:32,187 - logger_File -INFO - user clicked on Account option
+2023-03-12 14:42:32,268 - logger_File -INFO - user updated Name and Phone values 
+2023-03-12 14:42:32,275 - logger_File -INFO - user clicked on Update button
+2023-03-12 14:42:32,887 - logger_File -INFO - user profile information updated

@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: tek.sdet.framework.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.246 s - in tek.sdet.framework.runner.TestRunner
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.03 s <<< FAILURE! - in tek.sdet.framework.runner.TestRunner
+Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 1.765 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:49874/devtools/browser/dbddf9ec-87cd-47c0-b6f3-1db5738d6c3f
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 1.766 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+

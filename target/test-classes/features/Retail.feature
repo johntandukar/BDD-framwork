@@ -1,4 +1,4 @@
-@test
+@jenkinsRun
 Feature: This feature is use for testing UI of Retail Page
 
 
