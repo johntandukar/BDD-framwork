@@ -1688,3 +1688,64 @@
 2023-03-11 11:35:41,877 - logger_File -INFO - user filled the signUp information form
 2023-03-11 11:35:42,096 - logger_File -INFO - user clicked on SignUpForm button
 2023-03-11 11:35:42,123 - logger_File -INFO - user is login into account page
+2023-03-11 12:35:47,260 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 12:35:47,348 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-11 12:35:47,572 - logger_File -INFO - user clicked on login button
+2023-03-11 12:35:47,595 - logger_File -INFO - User should be logged in Account
+2023-03-11 12:35:50,433 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 12:35:50,661 - logger_File -INFO - user clicked on Create New Account button
+2023-03-11 12:35:50,800 - logger_File -INFO - user filled the signUp information form
+2023-03-11 12:35:51,021 - logger_File -INFO - user clicked on SignUpForm button
+2023-03-11 12:35:51,041 - logger_File -INFO - user is login into account page
+2023-03-11 15:47:33,396 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 15:47:33,484 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-11 15:47:33,706 - logger_File -INFO - user clicked on login button
+2023-03-11 15:47:33,715 - logger_File -INFO - User should be logged in Account
+2023-03-11 15:47:33,954 - logger_File -INFO - user clicked on Account option
+2023-03-11 15:47:34,041 - logger_File -INFO - user updated Name and Phone values 
+2023-03-11 15:47:56,951 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 15:47:57,026 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-11 15:47:57,248 - logger_File -INFO - user clicked on login button
+2023-03-11 15:47:57,261 - logger_File -INFO - User should be logged in Account
+2023-03-11 15:47:57,491 - logger_File -INFO - user clicked on Account option
+2023-03-11 15:47:57,568 - logger_File -INFO - user filled the new password information form
+2023-03-11 15:47:57,784 - logger_File -INFO - user clicked on change password
+2023-03-11 15:47:58,024 - logger_File -INFO - Password Updated successfully
+2023-03-11 15:48:00,406 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 15:48:00,479 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-11 15:48:00,697 - logger_File -INFO - user clicked on login button
+2023-03-11 15:49:25,552 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 15:49:25,638 - logger_File -INFO - user entered email james12345@gmail.com and password Home/1234
+2023-03-11 15:49:25,859 - logger_File -INFO - user clicked on login button
+2023-03-11 15:49:25,872 - logger_File -INFO - User should be logged in Account
+2023-03-11 15:49:26,111 - logger_File -INFO - user clicked on Account option
+2023-03-11 15:49:26,196 - logger_File -INFO - user updated Name and Phone values 
+2023-03-11 15:49:49,047 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 15:49:49,142 - logger_File -INFO - user entered email james12345@gmail.com and password Home/1234
+2023-03-11 15:49:49,365 - logger_File -INFO - user clicked on login button
+2023-03-11 15:49:49,374 - logger_File -INFO - User should be logged in Account
+2023-03-11 15:49:49,613 - logger_File -INFO - user clicked on Account option
+2023-03-11 15:49:49,692 - logger_File -INFO - user filled the new password information form
+2023-03-11 15:49:49,910 - logger_File -INFO - user clicked on change password
+2023-03-11 15:49:50,142 - logger_File -INFO - Password Updated successfully
+2023-03-11 15:49:52,548 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 15:49:52,627 - logger_File -INFO - user entered email james12345@gmail.com and password Home/1234
+2023-03-11 15:49:52,847 - logger_File -INFO - user clicked on login button
+2023-03-12 12:40:28,403 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:40:28,638 - logger_File -INFO - user clicked on Create New Account button
+2023-03-12 12:40:28,847 - logger_File -INFO - user filled the signUp information form
+2023-03-12 12:40:29,069 - logger_File -INFO - user clicked on SignUpForm button
+2023-03-12 12:40:29,096 - logger_File -INFO - user is login into account page
+2023-03-12 12:41:47,552 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:41:47,642 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 12:41:47,867 - logger_File -INFO - user clicked on login button
+2023-03-12 12:41:47,875 - logger_File -INFO - User should be logged in Account
+2023-03-12 12:42:29,232 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:42:29,323 - logger_File -INFO - user entered email james12345@gmail.com and password Home/12345
+2023-03-12 12:42:29,551 - logger_File -INFO - user clicked on login button
+2023-03-12 12:42:29,559 - logger_File -INFO - User should be logged in Account
+2023-03-12 12:42:32,908 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:42:33,140 - logger_File -INFO - user clicked on Create New Account button
+2023-03-12 12:42:33,342 - logger_File -INFO - user filled the signUp information form
+2023-03-12 12:42:33,564 - logger_File -INFO - user clicked on SignUpForm button
+2023-03-12 12:42:33,590 - logger_File -INFO - user is login into account page
