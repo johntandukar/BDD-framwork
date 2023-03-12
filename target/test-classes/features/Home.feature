@@ -1,4 +1,4 @@
-
+@jenkinsRun
 Feature: Retail Home Page
 
   @home

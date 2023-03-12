@@ -1,4 +1,4 @@
-@jenkinsRun
+
 Feature: Retail Application Account Feature
 
   Background: 
@@ -8,7 +8,7 @@ Feature: Retail Application Account Feature
     And User click on login button
     And User should be logged in into Account
 
-  @smokeTest
+  @jenkinsRun
   Scenario: Verify User can update Profile Information
     When User click on Account option
     And User update Name 'Jack' and Phone '1012028855'
@@ -20,11 +20,11 @@ Feature: Retail Application Account Feature
     When User click on Account option
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Home/12345       | Home/1234   | Home/1234       |
+      | Home/1234       | Home/12345   | Home/12345       |
     And User click on Change Password button
     Then a message should be displayed ‘Password Updated Successfully’
 
-  @test6
+  @jenkinsRun
   Scenario: Verify User can add a payment method
     When User click on Account option
     And User click on Add a payment method link
@@ -34,13 +34,13 @@ Feature: Retail Application Account Feature
     And User click on Add your card button
     Then a message should be displayed ‘Payment Method added successfully’
 
-  @test7
+  @jenkinsRun
   Scenario: Verify User can edit Debit or Credit card
     When User click on Account option
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 4589789563254712 | Toby Stark |              11 |           2026 |          021 |
+      | 4589689563254712 | Toby Stark |              11 |           2026 |          021 |
     And user click on Update Your Card button
     Then a message should be displayed ‘Payment Method updated Successfully’
 
@@ -50,17 +50,17 @@ Feature: Retail Application Account Feature
     And User click on remove option of card section
     Then payment details should be removed
 
-  @test9
+  @jenkinsRun
   Scenario: Verify User can add an Address
     When User click on Account option
     And User click on Add address option
     And user fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress  | apt | city  | state    | zipCode |
-      | United States | Robiny   |  7045647685 | 115 nowhere st |   4 | salem | Illinois |   45878 |
+      | United States | Robis   |  7045647685 | 115 nowhere st |   4 | salem | Illinois |   45878 |
     And User click Add Your Address button
     Then a message should be displayed 'Address Added Successfully'
 
-  @test10
+  @jenkinsRun
   Scenario: Verify User can edit an Address added on account
     When User click on Account option
     And User click on edit address option
@@ -70,7 +70,7 @@ Feature: Retail Application Account Feature
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 
-  @test13
+  @test13 @jenkinsRun
   Scenario: Verify User can remove Address from Account
     When User click on Account option
     And User click on remove option of Address section

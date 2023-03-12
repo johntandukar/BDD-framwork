@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@smokeTest",
+		tags = "@jenkinsRun",
 		features = ("classpath:features"),
 		glue ="tek.sdet.framework",
 		dryRun = false,

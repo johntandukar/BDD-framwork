@@ -52,7 +52,7 @@ $(document).ready(function() {
             data: [
                 0,
                 0,
-                9,
+                178,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 9) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 178) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,7 +107,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                 0,
-                1
+                21
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 21) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -154,7 +154,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                    0,
-                   1
+                   5
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>12 Mar 2023, 14:44</td>
+      <td>12 Mar 2023, 14:51</td>
     </tr>
   </tbody>
 </table>
@@ -325,20 +325,88 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_3514281404.html">Retail Application Account Feature</a></td>
+        <td class="tagname"><a href="report-feature_1070035835.html">Retail Home Page</a></td>
 
         <td >0</td>
         <td >0</td>
-        <td     class="skipped"   >9</td>
+        <td     class="skipped"   >73</td>
         <td >0</td>
         <td >0</td>
+        <td class="total">73</td>
+
+        <td >0</td>
+        <td  class="failed"    >9</td>
         <td class="total">9</td>
+
+        <td class="duration" data-value="2179000">0.002</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_1_847362655.html">This feature is use for testing UI of Retail Page</a></td>
+
+        <td >0</td>
+        <td >0</td>
+        <td     class="skipped"   >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">3</td>
 
         <td >0</td>
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="407000">0.000</td>
+        <td class="duration" data-value="64000">0.000</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_2_3514281404.html">Retail Application Account Feature</a></td>
+
+        <td >0</td>
+        <td >0</td>
+        <td     class="skipped"   >57</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">57</td>
+
+        <td >0</td>
+        <td  class="failed"    >6</td>
+        <td class="total">6</td>
+
+        <td class="duration" data-value="1215000">0.001</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_3_697482205.html">Retail Order Page</a></td>
+
+        <td >0</td>
+        <td >0</td>
+        <td     class="skipped"   >34</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">34</td>
+
+        <td >0</td>
+        <td  class="failed"    >3</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="427000">0.000</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_4_2573075998.html">Sign In Feature</a></td>
+
+        <td >0</td>
+        <td >0</td>
+        <td     class="skipped"   >11</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">11</td>
+
+        <td >0</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="165000">0.000</td>
         <td class="failed">Failed</td>
       </tr>
   </tbody>
@@ -348,17 +416,17 @@ $(document).ready(function() {
       <td></td>
       <td>0</td>
       <td>0</td>
-      <td>9</td>
+      <td>178</td>
       <td>0</td>
       <td>0</td>
-      <td>9</td>
+      <td>178</td>
 
       <td>0</td>
-      <td>1</td>
-      <td>1</td>
+      <td>21</td>
+      <td>21</td>
 
-      <td class="duration">0.000</td>
-      <td>1</td>
+      <td class="duration">0.004</td>
+      <td>5</td>
     </tr>
     <tr>
       <td></td>

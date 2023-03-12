@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: tek.sdet.framework.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.03 s <<< FAILURE! - in tek.sdet.framework.runner.TestRunner
-Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 1.765 s  <<< ERROR!
+Tests run: 42, Failures: 0, Errors: 42, Skipped: 0, Time elapsed: 7.539 s <<< FAILURE! - in tek.sdet.framework.runner.TestRunner
+Retail Home Page.Verify Shop by Department sidebar  Time elapsed: 0.843 s  <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:49874/devtools/browser/dbddf9ec-87cd-47c0-b6f3-1db5738d6c3f
+Unable to establish websocket connection to http://localhost:50586/devtools/browser/f4135229-350e-4d5d-96c1-9a6fe30a98a2
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
 Driver info: driver.version: ChromeDriver
@@ -21,7 +21,487 @@ Driver info: driver.version: ChromeDriver
 	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
 	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
 
-Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 1.766 s  <<< ERROR!
+Retail Home Page.Verify Shop by Department sidebar  Time elapsed: 0.844 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify Department sidebar options #1  Time elapsed: 0.334 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50595/devtools/browser/1b025c83-80fc-442f-82d8-87238c36f307
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify Department sidebar options #1  Time elapsed: 0.334 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify Department sidebar options #2  Time elapsed: 0.343 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50604/devtools/browser/78d731b1-5c9d-48e9-848c-db7ff124e20f
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify Department sidebar options #2  Time elapsed: 0.343 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify Department sidebar options #3  Time elapsed: 0.312 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50613/devtools/browser/bfe4886a-569f-40b2-80ce-91f65ce5021a
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify Department sidebar options #3  Time elapsed: 0.312 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify Department sidebar options #4  Time elapsed: 0.313 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50622/devtools/browser/e842260c-09f6-4ff2-8b83-0ebbff57121d
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify Department sidebar options #4  Time elapsed: 0.313 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify Department sidebar options #5  Time elapsed: 0.315 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50631/devtools/browser/3c800d7f-2529-4230-9317-655f8a94015d
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify Department sidebar options #5  Time elapsed: 0.315 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify User can add an item to cart  Time elapsed: 0.331 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50640/devtools/browser/e9e302d7-1b79-4cf9-b932-240a5dfa8159
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify User can add an item to cart  Time elapsed: 0.331 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify User can place an order without Shipping address and payment Method on file  Time elapsed: 0.321 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50649/devtools/browser/5210b31b-c5ca-4af1-8ce2-522c45773653
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify User can place an order without Shipping address and payment Method on file  Time elapsed: 0.321 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Home Page.Verify User can place an order with Shipping address and payment Method on file  Time elapsed: 0.337 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50658/devtools/browser/7ece58e6-09b2-4bc4-9028-1756b8952f90
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Home Page.Verify User can place an order with Shipping address and payment Method on file  Time elapsed: 0.337 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+This feature is use for testing UI of Retail Page.Verify user can search a product  Time elapsed: 0.361 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50667/devtools/browser/61d0b094-f5ae-4e6a-acf3-94b40a295586
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+This feature is use for testing UI of Retail Page.Verify user can search a product  Time elapsed: 0.361 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 0.312 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50676/devtools/browser/5d55ac4b-2e29-4e0f-8a3a-f643759f1322
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 0.312 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Application Account Feature.Verify User can add a payment method  Time elapsed: 0.31 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50685/devtools/browser/09a569c7-9786-467b-9c00-473b0d66c919
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can add a payment method  Time elapsed: 0.31 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Application Account Feature.Verify User can edit Debit or Credit card  Time elapsed: 0.307 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50694/devtools/browser/f6de6c4d-366a-44b1-9d23-6e525dd05769
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can edit Debit or Credit card  Time elapsed: 0.307 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Application Account Feature.Verify User can add an Address  Time elapsed: 0.304 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50703/devtools/browser/1a1391c0-e4c9-43ef-b4f5-64c793db4d37
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can add an Address  Time elapsed: 0.304 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Application Account Feature.Verify User can edit an Address added on account  Time elapsed: 0.306 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50712/devtools/browser/2197a504-4163-4618-87d8-a2af3c6d122b
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can edit an Address added on account  Time elapsed: 0.306 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Application Account Feature.Verify User can remove Address from Account  Time elapsed: 0.305 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50721/devtools/browser/e0535f16-2c1c-494f-9345-e4d78aca6b06
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Application Account Feature.Verify User can remove Address from Account  Time elapsed: 0.305 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Order Page.Verify User can cancel the order  Time elapsed: 0.305 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50730/devtools/browser/505312c7-1116-4ad5-96db-ea0b0a002395
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Order Page.Verify User can cancel the order  Time elapsed: 0.305 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Order Page.Verify User can Return the order  Time elapsed: 0.316 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50739/devtools/browser/5d26c066-ba40-4c4d-8c7d-2270f2720a41
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Order Page.Verify User can Return the order  Time elapsed: 0.316 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Retail Order Page.Verify User can write a review on order placed  Time elapsed: 0.33 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50748/devtools/browser/d39756f3-2508-44a0-90f7-c01a925ea0ca
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Retail Order Page.Verify User can write a review on order placed  Time elapsed: 0.33 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Sign In Feature.Verify user can sign in into Retail Application  Time elapsed: 0.331 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50757/devtools/browser/868785c9-b203-4115-a9b0-9d4f1df2b468
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Sign In Feature.Verify user can sign in into Retail Application  Time elapsed: 0.331 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
+	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
+	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)
+
+Sign In Feature.Verify user can create an account into Retail Website  Time elapsed: 0.327 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50766/devtools/browser/8b3d7771-83dd-48da-9749-f0a9db91b838
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'Johns-MBP', ip: '2600:4040:4020:1e00:59a3:d540:dde7:be92%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.2', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+	at tek.sdet.framework.config.ChromeHeadless.openBrowser(ChromeHeadless.java:16)
+	at tek.sdet.framework.base.BaseSetup.setupBrowser(BaseSetup.java:54)
+	at tek.sdet.framework.base.BaseUITest.setupTests(BaseUITest.java:11)
+
+Sign In Feature.Verify user can create an account into Retail Website  Time elapsed: 0.327 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "tek.sdet.framework.utilities.CommonUtility.getDriver()" is null
 	at tek.sdet.framework.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:60)
 	at tek.sdet.framework.base.BaseUITest.closeTests(BaseUITest.java:16)

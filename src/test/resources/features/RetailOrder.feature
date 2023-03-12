@@ -1,4 +1,4 @@
-
+@jenkinsRun
 Feature: Retail Order Page
 
   @Retail
