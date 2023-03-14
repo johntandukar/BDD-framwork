@@ -87,12 +87,12 @@ public class HomeSteps extends CommonUtility{
 	}
 	@When("User click on Search icon")
 	public void userClickOnSearchIcon() {
-		click(factory.homePage().searchButton);
+		clickElementWithJS(factory.homePage().searchButton);
 		logger.info("User clicked on Search icon");
 	}
 	@When("User click on item")
 	public void userClickOnItem() {
-		click(factory.homePage().objectToClick);
+		clickElementWithJS(factory.homePage().objectToClick);
 	  //  click(factory.homePage().smartPlug);
 		logger.info("User clicked on item");
 	}
@@ -103,7 +103,7 @@ public class HomeSteps extends CommonUtility{
 	}
 	@When("User click add to Cart button")
 	public void userClickAddToCartButton() {
-	    click(factory.homePage().addToCart);
+		clickElementWithJS(factory.homePage().addToCart);
 	    logger.info("User click add to cart button");
 	}
 	@Then("the cart icon quantity should change to ‘{int}’")
@@ -113,17 +113,17 @@ public class HomeSteps extends CommonUtility{
 	}
 	@Then("User click on Cart option")
 	public void userClickOnCartOption() {
-	   click(factory.homePage().cartClickButton);
+		clickElementWithJS(factory.homePage().cartClickButton);
 	   logger.info("User clicked on cart option");
 	}
 	@Then("User click on Proceed to Checkout button")
 	public void userClickOnProceedToCheckoutButton() {
-	    click(factory.homePage().checkoutButton);
+		clickElementWithJS(factory.homePage().checkoutButton);
 	    logger.info("User clicked checkout button");
 	}
 	@Then("User click Add a new address link for shipping address")
 	public void userClickAddANewAddressLinkForShippingAddress() {
-	    click(factory.homePage().addAddressBtn);
+		clickElementWithJS(factory.homePage().addAddressBtn);
 	    logger.info("User clicked on add new address link for shipping address");
 	}
 	@And("User fill new address form with below information")
@@ -147,12 +147,12 @@ public class HomeSteps extends CommonUtility{
 	
 	@Then("User click Add a credit card or Debit Card for Payment method")
 	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
-	    click(factory.homePage().addPaymentBtn);
+		clickElementWithJS(factory.homePage().addPaymentBtn);
 	    logger.info("User clicked add a credit or debit card for payment method");
 	}
 	@Then("User click on Place Your Order")
 	public void userClickOnPlaceYourOrder() {
-	    click(factory.homePage().placeOrderBtn);
+		clickElementWithJS(factory.homePage().placeOrderBtn);
 	    logger.info("User clicked on place your order");
 	}
 	@Then("a message should be displayed ‘Order Placed, Thanks’")

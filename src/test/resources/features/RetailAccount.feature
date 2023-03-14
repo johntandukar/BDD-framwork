@@ -11,7 +11,7 @@ Feature: Retail Application Account Feature
   @jenkinsRun
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'Jack' and Phone '1012028855'
+    And User update Name 'Boris' and Phone '2012028855'
     And User click on Update button
     Then User profile information should be updated
 
@@ -30,7 +30,7 @@ Feature: Retail Application Account Feature
     And User click on Add a payment method link
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 4563783745631110 | James Bond |               6 |           2034 |          007 |
+      | 4563783745631115 | James Bond |               6 |           2034 |          007 |
     And User click on Add your card button
     Then a message should be displayed ‘Payment Method added successfully’
 
@@ -40,7 +40,7 @@ Feature: Retail Application Account Feature
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 4589689563254712 | Toby Stark |              11 |           2026 |          021 |
+      | 4589689563254714 | Toby Stark |              11 |           2026 |          021 |
     And user click on Update Your Card button
     Then a message should be displayed ‘Payment Method updated Successfully’
 
@@ -56,7 +56,7 @@ Feature: Retail Application Account Feature
     And User click on Add address option
     And user fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress  | apt | city  | state    | zipCode |
-      | United States | Robis   |  7045647685 | 115 nowhere st |   4 | salem | Illinois |   45878 |
+      | United States | Robisn   |  7045687685 | 1156 nowhere st |   4 | salem | Illinois |   45878 |
     And User click Add Your Address button
     Then a message should be displayed 'Address Added Successfully'
 
@@ -66,7 +66,7 @@ Feature: Retail Application Account Feature
     And User click on edit address option
     And user fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress | apt | city   | state    | zipCode |
-      | United States | bird Eye |  7013452344 | 1245 movie st |   2 | marvel | Virginia |   56894 |
+      | United States | Eagle Eye |  7018452344 | 124 movie st |   2 | marvel | Virginia |   56894 |
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 

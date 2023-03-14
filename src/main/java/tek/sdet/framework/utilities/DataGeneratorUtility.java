@@ -25,9 +25,14 @@ public class DataGeneratorUtility {
 			output = faker.address().state();
 		} else if (input.equals("zipCode")) {
 			output = faker.address().zipCode();
+
+		} else if (input.equals("United States")) {
+			output = faker.address().country();
+		}else if (input.equals("apt")) {
+			output = faker.address().secondaryAddress();
 		}else
 			output = faker.expression("");
-return output;
+		return output;
 	}
 
 }

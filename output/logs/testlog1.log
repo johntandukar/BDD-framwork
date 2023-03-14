@@ -1791,3 +1791,76 @@
 2023-03-12 14:42:32,268 [main] INFO logger_File - user updated Name and Phone values 
 2023-03-12 14:42:32,275 [main] INFO logger_File - user clicked on Update button
 2023-03-12 14:42:32,887 [main] INFO logger_File - user profile information updated
+2023-03-12 15:07:52,006 [main] INFO logger_File - user clicked on All section
+2023-03-12 15:07:57,284 [main] INFO logger_File - TV & Video is present 
+2023-03-12 15:07:57,302 [main] INFO logger_File - Video Games is present 
+2023-03-12 15:08:00,076 [main] INFO logger_File - user clicked on All section
+2023-03-12 15:08:05,346 [main] INFO logger_File - Accessories is present 
+2023-03-12 15:08:05,363 [main] INFO logger_File - Networking is present 
+2023-03-12 15:08:07,841 [main] INFO logger_File - user clicked on All section
+2023-03-12 15:08:13,106 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-12 15:08:13,122 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-12 15:08:15,487 [main] INFO logger_File - user clicked on All section
+2023-03-12 15:08:20,755 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-12 15:08:20,771 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-12 15:08:23,152 [main] INFO logger_File - user clicked on All section
+2023-03-12 15:08:28,416 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-12 15:08:28,432 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-12 15:08:31,280 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 15:08:31,361 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 15:08:31,585 [main] INFO logger_File - user clicked on login button
+2023-03-12 15:08:31,593 [main] INFO logger_File - User should be logged in Account
+2023-03-12 15:08:31,826 [main] INFO logger_File - User changed the categoty to Smart Home
+2023-03-12 15:08:31,866 [main] INFO logger_File - User searched for an itemkasa outdoor smart plug
+2023-03-12 15:08:32,083 [main] INFO logger_File - User clicked on Search icon
+2023-03-12 15:08:32,315 [main] INFO logger_File - User clicked on item
+2023-03-12 15:08:32,582 [main] INFO logger_File - User select quantity2
+2023-03-12 15:08:32,822 [main] INFO logger_File - User click add to cart button
+2023-03-12 15:08:32,839 [main] INFO logger_File - the cart icon quantity should change to 2
+2023-03-12 15:08:35,468 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 15:08:35,543 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 15:08:35,761 [main] INFO logger_File - user clicked on login button
+2023-03-12 15:08:35,813 [main] INFO logger_File - User should be logged in Account
+2023-03-12 15:08:36,044 [main] INFO logger_File - User changed the categoty to Smart Home
+2023-03-12 15:08:36,071 [main] INFO logger_File - User searched for an itemkasa outdoor smart plug
+2023-03-12 15:08:36,287 [main] INFO logger_File - User clicked on Search icon
+2023-03-12 15:08:36,515 [main] INFO logger_File - User clicked on item
+2023-03-12 15:08:36,774 [main] INFO logger_File - User select quantity2
+2023-03-12 15:08:37,006 [main] INFO logger_File - User click add to cart button
+2023-03-12 15:08:37,027 [main] INFO logger_File - the cart icon quantity should change to 2
+2023-03-12 15:08:37,267 [main] INFO logger_File - User clicked on cart option
+2023-03-12 15:08:37,511 [main] INFO logger_File - User clicked checkout button
+2023-03-12 15:08:37,753 [main] INFO logger_File - User clicked on add new address link for shipping address
+2023-03-12 15:08:38,182 [main] INFO logger_File - User filled new address form
+2023-03-12 15:08:38,419 [main] INFO logger_File - User clicked Add Your Address button
+2023-03-12 15:08:38,650 [main] INFO logger_File - User clicked add a credit or debit card for payment method
+2023-03-12 15:08:39,190 [main] INFO logger_File - User fill Debit or credit card information
+2023-03-12 15:08:39,420 [main] INFO logger_File - User click on Add your card button
+2023-03-12 15:08:42,101 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 15:08:42,173 [main] INFO logger_File - user entered email james12345@gmail.com and password Home/1234
+2023-03-12 15:08:42,390 [main] INFO logger_File - user clicked on login button
+2023-03-12 15:08:42,405 [main] INFO logger_File - User should be logged in Account
+2023-03-12 15:08:42,630 [main] INFO logger_File - User changed the categoty to Electronics
+2023-03-12 15:08:42,664 [main] INFO logger_File - User searched for an itemApex Legends 
+2023-03-12 15:08:42,879 [main] INFO logger_File - User clicked on Search icon
+2023-03-12 15:08:43,111 [main] INFO logger_File - User clicked on item
+2023-03-12 15:08:43,369 [main] INFO logger_File - User select quantity5
+2023-03-12 15:08:43,600 [main] INFO logger_File - User click add to cart button
+2023-03-12 15:08:43,616 [main] INFO logger_File - the cart icon quantity should change to 5
+2023-03-12 15:08:43,853 [main] INFO logger_File - User clicked on cart option
+2023-03-12 15:08:44,099 [main] INFO logger_File - User clicked checkout button
+2023-03-12 15:08:44,334 [main] INFO logger_File - User clicked on place your order
+2023-03-12 15:08:44,351 [main] INFO logger_File - A message with 'order placed, thanks' should be displayed
+2023-03-12 15:09:54,890 [main] INFO logger_File - user clicked on All section
+2023-03-12 15:09:54,908 [main] INFO logger_File - Electronics is equal to Electronics
+2023-03-12 15:09:59,913 [main] INFO logger_File - SideBar oprtions are present in Department
+2023-03-12 15:09:59,938 [main] INFO logger_File - Computers is equal to Computers
+2023-03-12 15:10:04,944 [main] INFO logger_File - SideBar oprtions are present in Department
+2023-03-12 15:10:04,963 [main] INFO logger_File - Smart Home is equal to Smart Home
+2023-03-12 15:10:09,968 [main] INFO logger_File - SideBar oprtions are present in Department
+2023-03-12 15:10:09,999 [main] INFO logger_File - Sports is equal to Sports
+2023-03-12 15:10:15,005 [main] INFO logger_File - SideBar oprtions are present in Department
+2023-03-12 15:10:15,031 [main] INFO logger_File - Automative is equal to Automative
+2023-03-12 15:10:20,036 [main] INFO logger_File - SideBar oprtions are present in Department
+2023-03-13 20:34:08,378 [main] INFO logger_File - user searched for productpokemon
+2023-03-13 20:34:08,457 [main] INFO logger_File - the Product is displayed on home page

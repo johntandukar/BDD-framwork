@@ -1,4 +1,4 @@
-@jenkinsRun
+@jenkinsRun @test50
 Feature: Retail Home Page
 
   @home
@@ -58,12 +58,12 @@ Feature: Retail Home Page
     And User click Add a new address link for shipping address
     And User fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress | apt    | city   | state    | zipCode |
-      | United States | hulk     |  4561237894 | 145 sky st    | forest | vienna | Virginia |   20147 |
+      | United States | hulky     |  4561237894 | 145 sky st    | forest | vienna | Virginia |   20147 |
     And User click Add Your Address button
     And User click Add a credit card or Debit Card for Payment method
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7845874512567894 | Idontknow  |               5 |           2024 |          784 |
+      | 7845874512567896 | Idontknow  |               5 |           2024 |          784 |
     And User click on Add your card button
     And User click on Place Your Order
     Then a message should be displayed ‘Order Placed, Thanks’
